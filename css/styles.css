@@ -147,10 +147,12 @@ body {
 
 
 .lang {
+    
     color: black;
+    display: inline-block;
     border-radius: 25px;
     padding: 1% 15px;
-    margin-right: 2%;
+    margin: 1.5% 0% 1.5% 1%;
 }
 
 .first {
@@ -169,47 +171,27 @@ body {
 .fourth {
     position: relative;
     background-color: #CAFEFC;
+    margin-bottom: 25%;
 }
 
-
-@media (max-width: 1164px) {
+@media (min-width: 992px) {
     .fourth {
-      top: 2.5%;
+        margin-bottom: 5%;
     }
   }
 
-@media (max-width: 917px) {
-.third {
-    top: 2.5%;
-}
-}
-
-@media (max-width: 769px) {
-    .third {
-        top: 0;
-    }
-    .fourth {
-        top: 0;
-    }
-}
-
-@media (max-width: 606px) {
-    #reach-out {
-        margin-top: 200px;
-    }
-    .fourth {
-        top: 2.5%;
-    }
-}
-@media (max-width: 483px) {
-
-    .third {
-        top: 2.5%;
-    }
-}
-
 
 /* Contact me section */
+
+.cryptedmail:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+    text-decoration: none;
+    color: #fff;
+}
+
+span.protectedNumber:before {
+    content: attr(title);
+}
 
 .reach-out {
     color: #fff;
