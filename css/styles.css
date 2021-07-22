@@ -171,6 +171,7 @@ body {
     background-color: #CAFEFC;
 }
 
+
 @media (max-width: 1164px) {
     .fourth {
       top: 2.5%;
@@ -193,7 +194,9 @@ body {
 }
 
 @media (max-width: 606px) {
-
+    #reach-out {
+        margin-top: 200px;
+    }
     .fourth {
         top: 2.5%;
     }
@@ -204,13 +207,6 @@ body {
         top: 2.5%;
     }
 }
-@media (max-width: 329px) {
-
-    .fourth {
-        top: 5%;
-    }
-}
-
 
 
 /* Contact me section */
@@ -220,7 +216,7 @@ body {
     font-family: "Manrope", sans-serif;
     width: 73%;
     margin-left: 18.5%;
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 .orange-hr2 {
@@ -232,6 +228,10 @@ body {
     opacity: 100%;
     width: 22%;
     margin-left: 6%;
+}
+
+.lowerr-row {
+    margin-top: 5%;
 }
 
 .link-socials {
