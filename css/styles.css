@@ -92,6 +92,10 @@ body {
     font-family: "Manrope", sans-serif;
 }
 
+#about-me-text {
+    white-space: nowrap;
+}
+
 /* Portfolio section */
 
 .portfolio {
