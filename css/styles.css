@@ -270,7 +270,7 @@ span.protectedNumber:before {
     font-size: 0.9rem;
 }
 
-@media (max-width: 580px) {
+@media only screen and (max-width: 580px) {
     .orange-hr {
         width: 70%;
         margin-left: 10%;
