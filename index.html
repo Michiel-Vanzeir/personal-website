@@ -38,11 +38,8 @@
         <li class="nav-item">
           <a class="nav-link text-light" href="#portfolio">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item align-items-center mt-2">
-          <a class="nav-link text-light" id="hire-me" href="#contact">Hire me</a>
+        <li class="nav-item align-items-center">
+          <a class="nav-link text-light" id="hire-me" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -51,108 +48,79 @@
   <div class="container-fluid title">
     <h6>Hey there!</h6>
     <h1><strong>I'm Michiel Vanzeir</strong></h1>
-    <h5><strong>Freelance software developer</strong></h5>
+    <h5><strong>Software developer</strong></h5>
   </div>
 
   <div class="container-fluid about-me" id="about-me">
-    <h3>About me</h3>
+    <h3><b>About me</b></h3>
     <p>
-      I am Michiel Vanzeir, an ambitious and inquisitive freelancer. As a
-      16-year-old, self-taught software developer, I have a fresh and unique view
+      I am Michiel Vanzeir, an ambitious and inquisitive software developer. Being 16-years-old and self-taught, I have a fresh and unique view
       that enables me to come up with <span id="about-me-text">out-of-the-box</span> solutions to complex problems.
-      With the experience I’ve gained over recent years, writing innovative software
+      With the experience I've gained, writing innovative software
       has become second nature to me. Whether I’m developing a web application or
-      programming an autonomous drone, I revel in challenge. Moreover, I strive for
+      programming a simple differential drive robot, I revel in challenge. Moreover, I strive for
       perfection and efficiency in every project I start. Outside of programming,
       I'm an avid stargazer and interested in engineering. Feel free to contact me
-      for any further information.
+      for any further information or questions!
     </p>
   </div>
 
   <div class="container-fluid portfolio" id="portfolio">
-    <h2><strong>Portfolio & Languages</stong>
+    <h2><strong>Programming Portfolio</stong>
     </h2>
     <hr class="orange-hr" />
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h3><strong>Naturise (in development)</strong></h3>
+          <h3><strong>WALL-E</strong></h3>
           <p>
-            <b>
-              Naturise is a climate changed themed website. Our vision is to inform, inspire, and motivate our users to
-              do something about climate change. We show our users fathomable news articles, interesting statistics, and
-              much more in an interactive and engaging manner.</b>
+            <b>WALL-E is a simple differential drive robot. Working on this project, I've learned both ROS & ROS2, control loop mechanisms like a PID and Fuzzy Logic controller, and Gazebo simulations. WALL-E can follow a black line using its camera videofeed and a PID controller, or be controlled with a keyboard. </b>
           </p>
           <img class="link-arrow" src="images/arrow-link.png" alt="" />
-          <a class="project-link" href="#">Website link</a>
-          <br />
-          <img class="link-arrow" src="images/arrow-link.png" alt="" />
-          <a class="project-link" href="https://github.com/Michiel-Vanzeir/Naturise">Github link</a>
-          <h4 class="languages"><b>Languages used</b></h4>
-          <span class="first lang">HTML</span>
-          <span class="second lang">CSS</span>
-          <span class="third lang">Javascript</span>
-          <span class="fourth lang">Python</span>
-        </div>
-        <div class="col-md-6">
-          <h3><strong>Line follower</strong></h3>
-          <p>
-            <b>
-              Using a Raspberry Pi 3B+ and a camera, this robot can follow a black line or be controlled by a simplistic Flutter app. The software is written using ROS, C++ and Python. The OpenCV library is used to detect the middle of the line, which a PID controller uses to control the robot.</b>
-            </b>
-          </p>
-          <img class="link-arrow" src="images/arrow-link.png" alt="" />
-          <a class="project-link" href="https://github.com/Michiel-Vanzeir/Linefollower-rpi">Github Robot</a>
-          <br />
-          <img class="link-arrow" src="images/arrow-link.png" alt="" />
-          <a class="project-link" href="https://github.com/Michiel-Vanzeir/linefollower-app">Github App</a>
+          <a class="project-link" href="https://github.com/Michiel-Vanzeir/Linefollower-rpi">Github Repository</a>
           <h4 class="languages"><b>Languages used</b></h4>
           <span class="first lang">Python</span>
           <span class="second lang">C++</span>
-          <span class="third lang">Dart</span>
+          <span class="third lang">CMake</span>
+        </div>
+        <div class="col-md-6">
+          <h3><strong>WALL-E (simulated)</strong></h3>
+          <p>
+            <b>This repository contains the files needed to simulate WALL-E using Gazebo and integrating ROS with it. At the moment, only a URDF file representing the robot can be found in the repository. I'm currently working on simulating SLAM and using a Kalman filter to merge raw IMU sensor data.</b>
+            </b>
+          </p>
+          <img class="link-arrow" src="images/arrow-link.png" alt="" />
+          <a class="project-link" href="https://github.com/Michiel-Vanzeir/WALL-E-Gazebo">Github Repository</a>
+          <h4 class="languages"><b>Languages used</b></h4>
+          <span class="first lang">Python</span>
+          <span class="third lang">CMake</span>
         </div>
       </div>
       <div class="row lowerr-row">
         <div class="col-md-6">
-          <h3><strong>Project title</strong></h3>
+          <h3><strong>Coconnect</strong></h3>
           <p>
             <b>
-              Project description is here. Lorem ipsum dolor sit amet,
-              consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut laboreet dolore magna aliquyam erat, sed diam
-              voluptua</b>
+              Coconnect is my mother, a talented psychologist's website that I've made using plain HTML and CSS. Through this project, I've implemented the Bootstrap 5 framework and gained some experience working with a real-life enterprise.</b>
           </p>
           <img class="link-arrow" src="images/arrow-link.png" alt="" />
-          <a class="project-link">Website link</a>
-          <br />
-          <img class="link-arrow" src="images/arrow-link.png" alt="" />
-          <a class="project-link">Github link</a>
+          <a class="project-link" href="https://www.coconnect.be/">Website link</a>
           <h4 class="languages"><b>Languages used</b></h4>
-          <span class="first lang">Javascript</span>
-          <span class="second lang">PHP</span>
-          <span class="third lang">CSS</span>
           <span class="fourth lang">HTML</span>
+          <span class="third lang">CSS</span>
+          <span class="first lang">Bootstrap 5</span>
         </div>
 
         <div class="col-md-6">
-          <h3><strong>Project title</strong></h3>
+          <h3><strong>Broken Camera (upcoming)</strong></h3>
           <p>
-            <b>
-              Project description is here. Lorem ipsum dolor sit amet,
-              consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut laboreet dolore magna aliquyam erat, sed diam
-              voluptua</b>
+            <b>I'm currently working on a "broken camera". The camera should work like any other, but it will only take a picture if the people in it have their eyes closed. It's a stupid and useless, yet fun project to work on! A convolutional neural network will be used to make it work.</b>
           </p>
           <img class="link-arrow" src="images/arrow-link.png" alt="" />
-          <a class="project-link">Website link</a>
-          <br />
-          <img class="link-arrow" src="images/arrow-link.png" alt="" />
-          <a class="project-link">Github link</a>
-          <h4 class="languages"><b>Languages used</b></h4>
-          <span class="first lang">Javascript</span>
-          <span class="second lang">PHP</span>
-          <span class="third lang">CSS</span>
-          <span class="fourth lang">HTML</span>
+          <a class="project-link" href="/">Github Repository</a>
+          <h4 class="languages"><b>Language used</b></h4>
+          <span class="first lang">Python</span>
+          <span class="second lang">C++</span>
         </div>
       </div>
     </div>
