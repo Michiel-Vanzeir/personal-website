@@ -129,6 +129,10 @@ body {
     border-radius: 7px 7px 7px 7px;
 }
 
+.portfolio-col {
+    height: 400px;
+}
+
 .col-md-6 p {
     margin-bottom: 1.5em;
     width: 95%;
@@ -225,6 +229,36 @@ span.protectedNumber:before {
     border-radius: 7px 7px 7px 7px;
 }
 
+.feedback {
+    height: 100%;
+    /* Rounded corners */
+    border-radius: 10px;
+}
+
+.schoolhouse-col {
+    height: 25em;
+}
+
+.stats-col {
+    /* Center the elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-hr3 {
+    position: relative;
+    top: -10px;
+    color: #FF9100;
+    background-color: #FF9100;
+    border: 2px solid;
+    opacity: 100%;
+    width: 13em;
+    margin-left: 7em;
+    border-radius: 7px 7px 7px 7px;
+}
+
+
 .lowerr-row {
     margin-top: 5%;
 }
@@ -253,8 +287,8 @@ span.protectedNumber:before {
 }
 
 .icon {
-    margin-right: 3%;
     color: #fff;
+    margin-left: 0.25em;
 }
 
 /* Footer section */
@@ -287,6 +321,29 @@ span.protectedNumber:before {
         font-size: 1.5rem;
     }
     .col-md-6 h3 {
-    margin-top: 1.5em;
+        margin-top: 1.7em;
+        font-size: 1.7em;
+    }
+    .portfolio-col {
+        margin-bottom: 3.5em;
+    }
+    .feedback {
+        width: 95%;
+        height: auto;
+    }
+    .schoolhouse-col {
+        margin-bottom: 12.5em;
+    }
+    .feedback {
+        margin-bottom: 1em;
+    }
+    .stats-col {
+        margin-bottom: 0em;
+    }
 }
+
+@media only screen and (max-width: 1000px) and (min-width: 740px) {
+    .schoolhouse-col {
+        margin-bottom: 7em;
+    }
 }
